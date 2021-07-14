@@ -370,9 +370,13 @@ body {
 
 .letra-chica {
   font-weight: 400;
+  color: black;
 }
 .img-red {
   width: 27px;
   height: 27px;
   margin-right: 8px;
+}
+a {
+  color: black;
 }
