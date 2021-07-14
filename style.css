@@ -1,0 +1,378 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "roboto";
+  background-image: url(./puntitos.svg);
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  padding: 18px 20px;
+}
+@media (min-width: 888px) {
+  .header {
+    height: 131px;
+    padding: 36px 80px 0px 80px;
+  }
+}
+.cont-logo-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 54px;
+  height: 50px;
+}
+@media (min-width: 888px) {
+  .logo {
+    width: 95px;
+    height: 109px;
+  }
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 36px;
+  height: 32px;
+  justify-content: space-between;
+}
+@media (min-width: 888px) {
+  .menu {
+    flex-direction: row;
+    width: 428px;
+    height: 28px;
+  }
+}
+.line {
+  height: 6px;
+  background-color: black;
+}
+@media (min-width: 888px) {
+  .line {
+    display: none;
+  }
+}
+.menu-partes {
+  display: none;
+}
+@media (min-width: 888px) {
+  .menu-partes {
+    display: inline;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+/* /////////////////////// */
+.seccion-uno {
+  width: 100%;
+  height: 530px;
+}
+@media (min-width: 888px) {
+  .seccion-uno {
+    height: 435px;
+  }
+}
+.cont-seccion-uno {
+  margin-top: 36px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+}
+@media (min-width: 888px) {
+  .cont-seccion-uno {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    padding-left: 80px;
+    padding-right: 84px;
+  }
+}
+.img {
+  width: 318px;
+  height: 300px;
+  align-self: flex-end;
+  margin: 0 auto;
+}
+@media (min-width: 888px) {
+  .img {
+    width: 435px;
+    height: 395px;
+    margin-right: 0px;
+  }
+}
+.h1 {
+  font-family: "Open Sans";
+  font-size: 48px;
+  text-align: center;
+  font-weight: 700;
+}
+@media (min-width: 888px) {
+  .h1 {
+    margin-top: 80px;
+  }
+}
+/* /////////////////////// */
+
+.seccion-dos {
+  background-color: black;
+  width: 100%;
+  height: 538px;
+}
+@media (min-width: 888px) {
+  .seccion-dos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
+@media (min-width: 888px) {
+  .cont-tick-secc-dos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+.cont-seccion-dos {
+  padding: 55px 32px 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 888px) {
+  .cont-seccion-dos {
+    padding: 0px;
+    padding-left: 45px;
+    height: 237px;
+    width: 532px;
+    align-items: flex-start;
+  }
+}
+.h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0 0 25px 0;
+}
+.p {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tilde-verde {
+  width: 80px;
+  height: 80px;
+  background-color: #4caf50;
+  border: solid 5px #ffd953;
+  border-radius: 8px;
+  margin: 57px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 888px) {
+  .tilde-verde {
+    width: 211px;
+    height: 211px;
+    margin: 0;
+  }
+}
+
+.check {
+  width: 35px;
+  height: 24px;
+}
+/* /////////////////////// */
+
+.seccion-tres {
+  width: 100%;
+  height: 1375px;
+  background-color: white;
+}
+@media (min-width: 888px) {
+  .seccion-tres {
+    height: 504px;
+  }
+}
+.cont-seccion-tres {
+  display: grid;
+  gap: 109px;
+  padding: 48px 57px 0px 56px;
+}
+@media (min-width: 888px) {
+  .cont-seccion-tres {
+    /* grid-template-columns: 1fr 1fr 1fr;
+    gap: 242px; */
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.sub-cont-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h2-mis-servicios {
+  margin: 0px auto;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 32px;
+  padding-top: 70px;
+  text-align: center;
+}
+@media (min-width: 888px) {
+  .h2-mis-servicios {
+    padding-top: 60px;
+    margin: 0;
+    text-align: center;
+  }
+}
+.pc {
+  width: 140px;
+  height: 128px;
+}
+.parrafos-sec-tres {
+  text-align: center;
+}
+.h3 {
+  margin: 20px 0 0 0;
+}
+/* /////////////////////// */
+
+.seccion-cuatro {
+  width: 100%;
+  height: 660px;
+  background-color: black;
+}
+.cont-escribime-secc-cuatro {
+}
+@media (min-width: 888px) {
+  .cont-escribime-secc-cuatro {
+    display: flex;
+    justify-content: center;
+    padding-top: 116px;
+  }
+}
+.cont-seccion-form {
+  display: grid;
+  gap: 24px;
+  align-items: center;
+  padding: 35px 20px 70px 20px;
+}
+@media (min-width: 888px) {
+  .cont-seccion-form {
+    padding: 0;
+    padding-left: 70px;
+  }
+}
+.h2-form {
+  margin: 0 auto;
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 65px 52px 0px 52px;
+  text-align: center;
+}
+@media (min-width: 888px) {
+  .h2-form {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+  }
+}
+.label {
+  display: block;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.fieldset-nombre,
+.fieldset-email,
+.fieldset-mensaje {
+  width: 100%;
+}
+.input {
+  width: 100%;
+  height: 45px;
+}
+@media (min-width: 888px) {
+  .input {
+    width: 375px;
+  }
+}
+.textarea {
+  width: 100%;
+  height: 113px;
+}
+.cont-button {
+  width: 100%;
+  height: 45px;
+  margin-top: 36px;
+}
+.button {
+  width: 100%;
+  height: 100%;
+  background-color: #ffd953;
+  font-family: "roboto";
+  font-weight: 700;
+}
+
+/* /////////////////////// */
+
+.footer {
+  width: 100%;
+  height: 493px;
+  background-color: #c4c4c4;
+  /* background-image: url(./puntitos.svg); */
+}
+@media (min-width: 888px) {
+  .footer {
+    height: 346px;
+  }
+}
+.cont-footer {
+  padding: 53px 20px;
+}
+@media (min-width: 888px) {
+  .cont-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 102px 84px 103px 84px;
+  }
+}
+.img-footer {
+  width: 77px;
+  height: 71px;
+}
+.sub-cont-redes {
+  display: grid;
+  gap: 30px;
+  margin-top: 85px;
+}
+@media (min-width: 888px) {
+  .sub-cont-redes {
+    margin-top: 0px;
+  }
+}
+
+.field-red {
+  display: flex;
+  align-items: center;
+}
+
+.letra-chica {
+  font-weight: 400;
+}
+.img-red {
+  width: 27px;
+  height: 27px;
+  margin-right: 8px;
+}
